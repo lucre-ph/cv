@@ -1,0 +1,14 @@
+* {
+    width: auto;
+    height: 100vh;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    background-image: url(./files/gestion-productos-construccion.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-style: italic;
+    padding: 3rem;
+}

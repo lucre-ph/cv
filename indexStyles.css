@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+nav {
+    width: 75%;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to left,#ecea48, rgb(241, 228, 46));
+}
+
+#aboutMe {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+aside {
+    opacity: 80%;
+    padding: 10%;
+    height: 20vw;
+    margin-bottom: 5%;
+    background-image: url(./files/image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: beige;
+}
+
+#main {
+    background-color: rgb(245, 234, 245);
+}
+
+#table {
+    background-color: #cf5525;
+    margin-bottom: 5%;
+    overflow: hidden;
+    font-size: small;
+    border-radius: 5rem;
+    text-align: center;
+    width: max-content;
+    padding: 3rem;
+}
+
+th {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    height: 15%;
+    background-image: linear-gradient(to left, #e8f16a, #d8f822);
+}
+
+#footerIcon {
+    color:#cf5525;
+}

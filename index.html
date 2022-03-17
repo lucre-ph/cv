@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./files/favicon.ico">
+    <link rel="stylesheet" href="./indexStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Pedraza Lucrecia</title>
+</head>
+<body>
+    <div class="container-fluid">
+        
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light mx-auto">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Lucrecia Pedraza</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="d-flex justify-content-end">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#achievements" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Cursos
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#achievements">Web-development</a></li>
+                                        <li><a class="dropdown-item" href="#achievements">Javascript</a></li>
+                                        <li><a class="dropdown-item" href="#achievements">React JS</a></li>
+                                        <li><a class="dropdown-item" href="#achievements">Backend</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./files/1.pdf" download="CV-Pedraza">Mi CV</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>           
+        
+        <main>
+            <div class="d-flex justify-content-center mb-5">
+                <section id="aboutMe">
+                    <h1 class="animate__animated animate__fadeIn"><strong><i>Hello World!</i></strong></h1>
+                    <p class="animate__animated animate__fadeInLeftBig">Soy Lucre, una desarrolladora Full Stack y estudiante de bioquimica en la Universidad de Buenos Aires -UBA, y esta es mi Web.</p>
+                    <img src="./files/unnamed.png" class="rounded float-end animate__animated animate__fadeInRightBig" alt="profile picture" style="width: 18rem";>
+                </section>
+            </div>
+            
+            <aside></aside>
+            
+            <div id="main" class="mb-5 container-fluid d-flex justify-content-around" style="text-align: center;">
+                <div id="achievements" class="mb-5">
+                    <h3>Certificaciones & Logros</h3>
+                    <div class="row">
+                        <div class="col ">
+                            <div class="card" style="max-width: 15rem;">
+                                <img src="./files/developing.png" class="card-img-top" alt="developing websites">
+                                <div class="card-body">
+                                    <p class="card-text">Web Development</p>
+                                </div>
+                                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#developmentModal">Certificado</button>
+                                <a href="https://viajeideal.000webhostapp.com/index.html#" target="_blank"><i>Proyecto final</i></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="max-width: 15rem;">
+                                <img src="./files/js.png" class="card-img-top" alt="javascript logo">
+                                <div class="card-body">
+                                    <p class="card-text">JavaScript</p>
+                                </div>
+                                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#javascriptModal">Certificado</button>
+                                <a href="./ongoing.html" target="_blank"><i>Proyecto final</i></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="max-width: 15rem;">
+                                <img src="./files/react.png" class="card-img-top" alt="react logo">
+                                    <div class="card-body">
+                                        <p class="card-text">React JS</p>
+                                    </div>
+                                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#reactModal">Certificado</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="max-width: 15rem;">
+                                <img src="./files/back.png" class="card-img-top" alt="backend image">
+                                <div class="card-body">
+                                    <p class="card-text">BackEnd</p>
+                                </div>
+                                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#backendModal">Certificado</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+
+            <!--MODALS-->
+            <div class="modal fade" id="developmentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">X</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./files/Web Development Certificate.png" style="width: 100%";/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="javascriptModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">X</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./files/JavaScrypt Certificate.png" style="width: 100%";/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="reactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">X</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./files/React JS Certificate.png" style="width: 100%";/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="backendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">X</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./files/Backend Certificate.png" style="width: 100%";/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>   
+
+        <section id="table" class="container d-flex justify-content-center">
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th colspan="2">Aptitudes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>HTML5</th>
+                        <th>CSS3</th>
+                    </tr>
+                    <tr>
+                        <th>Bootstrap5/th>
+                        <th>Javascript</th>
+                    </tr>
+                    <tr>
+                        <th>React JS</th>
+                        <th>Material UI</th>
+                    </tr>
+                    <tr>
+                        <th>Handlebars, Pug & Ejs templates</th>
+                        <th>APIs</th>
+                    </tr>
+                    <tr>
+                        <th>Mongo DB</th>
+                        <th>SQL</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+                
+        <footer>
+            <div id="contact" class="p-5">
+                    <a href="mailto: lucrecia.phoff@gmail.com"><i id="footerIcon" class='bx bxl-gmail bx-lg'></i></a>
+                    <a href="https://github.com/lucre-ph"><i id="footerIcon" class='bx bxl-github bx-lg'></i></a>
+                    <a href="https://www.linkedin.com/in/lucrecia-pedraza/"><i id="footerIcon" class='bx bxl-linkedin-square bx-lg'></i></a>
+            </div>
+            Diseño y desarrollo por Lucrecia Pedraza. Copyright 2022 ©. Todos los derechos reservados.
+            <a href="#"><i class='bx bx-up-arrow-circle bx-lg d-flex float-end justify-content-end' id="footerIcon"></i></a>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
