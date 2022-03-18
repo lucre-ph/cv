@@ -1,3 +1,1 @@
-install Node JS
-npx create-react-app cv.pedraza
-cd cv.pedraza
+Deployed site       ----->          <a name="https://lucre-ph.github.io/cv/"></a>
