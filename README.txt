@@ -1,1 +1,1 @@
-Deployed site       ----->          <a name="https://lucre-ph.github.io/cv/"></a>
+Deployed site       ----->          [https://lucre-ph.github.io/cv/]
